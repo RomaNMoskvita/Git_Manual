@@ -1,0 +1,14 @@
+======================================================================|===================================================================|
+                                SETUP                                 |                          SETUP & INIT                             |
+======================================================================|===================================================================|
+Configuring user information used across all local repositories       |Configuring user information, initializing and cloning repositories|
+----------------------------------------------------------------------|-------------------------------------------------------------------|
+git config --global user.name “[firstname lastname]”                  |git init                                                           |
+set a name that is identifiable for credit when review version history|initialize an existing directory as a Git repository               |
+______________________________________________________________________|___________________________________________________________________|
+git config --global user.email “[valid-email]”                        |git clone [url]                                                    |
+set an email address that will be associated with each history marker |retrieve an entire repository from a hosted location via URL       |
+______________________________________________________________________|___________________________________________________________________|
+git config --global color.ui auto                                     |                                                                   |
+set automatic command line coloring for Git for easy reviewing.       |                                                                   |
+______________________________________________________________________|___________________________________________________________________|
