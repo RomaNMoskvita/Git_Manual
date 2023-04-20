@@ -71,6 +71,14 @@ orders = ['ABB','KUKA']
 orders.append('FANUC')
 print(orders)
 
+barries = ["blueberry", "cranberry", "raspberry"]
+
+print(barries[:-2])
+
+#Modifying 2D Lists
+
+class_name_hobbies =[["Jenny","Breakdancing"],["Alexus","Photography"],["Grace", "Soccer"]]
     
-    
+class_name_hobbies[1][1] = "Meditation"
+print(class_name_hobbies)
     
